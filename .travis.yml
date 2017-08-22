@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+ - 2.2
+ - jruby
+ - rbx-2
+notifications:
+ webhooks:
+   urls:
+     - https://hooks.glipdemo.com/webhook/34fcf395-1ef7-445d-ae18-ca5a31ff4656
