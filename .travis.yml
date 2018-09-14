@@ -1,5 +1,4 @@
 notifications:
   webhooks:
     urls:
-      - https://hooks.glipdemo.com/webhook/cd0b3102-6b33-4144-9011-7ffb52969442
-2
+      - https://hooks.glipdemo.com/webhook/23b4843d-72db-419b-aa48-8f349f646543
