@@ -5,7 +5,7 @@ agent:
     type: e1-standard-2
     os_image: ubuntu1804
 blocks:
-  - name: Lint test
+  - name: Lint
     task:
       prologue:
         commands:
@@ -13,7 +13,7 @@ blocks:
       jobs:
         - name: make lint
           commands:
-            - echo "lint your code"
+            - echo "lint your code"/
   - name: Unit tests
     task:
       prologue:
